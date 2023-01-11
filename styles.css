@@ -1,2 +1,29 @@
 
 /* Your CSS Code here. */
+body{
+    font-family: 'Inter', sans-serif;
+}
+.container table{
+    width: 70vw;
+    text-align: left;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+.container th,td{
+    font-weight: 500;
+    border: 2px solid black;
+}
+.row-1{
+    color: white;
+    background-color: indianred;
+}
+.row-2{
+    color: white;
+    background-color: rgb(225, 168, 168);
+}
+.row-3{
+    background-color: antiquewhite;
+}
+.row-4{
+    background-color: rgb(148, 199, 201);
+}
