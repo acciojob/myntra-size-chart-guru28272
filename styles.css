@@ -1,17 +1,25 @@
 
 /* Your CSS Code here. */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap');
+
 body{
     font-family: 'Inter', sans-serif;
 }
 .container table{
     width: 70vw;
-    text-align: left;
     border: 2px solid black;
     border-collapse: collapse;
 }
 .container th,td{
+    text-align: left;
     font-weight: 500;
     border: 2px solid black;
+}
+.container .heading{
+    text-align: left;
+}
+.container td{
+    text-align: right;
 }
 .row-1{
     color: white;
